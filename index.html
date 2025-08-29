@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-  </body>
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #a29b9b;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        .center {
+            text-align: center;
+            width: 400px;
+            height: 50%;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            border: 10px solid black;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: rgb(175, 214, 214);
+        }
+
+        ul {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Vedant's First CS193 Homework</h1>
+        <h4>Things I like about CS19300</h1>
+            <ul>
+                <li>Its a coding class</li>
+                <li>We will hopefully code a video game</li>
+            </ul>
+    </div>
+</body>
+
 </html>
